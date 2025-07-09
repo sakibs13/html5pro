@@ -1,0 +1,35 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.card-section{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card{
+    width: 200px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 1.35em;
+    font-weight: 700;
+}
+.card:hover{
+    background-color: aqua;
+}
